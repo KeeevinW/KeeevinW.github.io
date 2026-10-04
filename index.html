@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xuanye Wang</title>
+  <meta name="description" content="Xuanye Wang — Computer Science at UC San Diego. Software engineer building secure cloud systems, and researcher in audio watermarking.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Xuanye Wang">
+  <meta property="og:description" content="Computer Science at UC San Diego. Software engineer building secure cloud systems, and researcher in audio watermarking.">
+  <meta property="og:url" content="https://keeevinw.github.io/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    // Apply a saved theme before first paint to avoid a flash.
+    try {
+      const saved = localStorage.getItem("theme");
+      if (saved === "light" || saved === "dark") document.documentElement.dataset.theme = saved;
+    } catch (e) {}
+  </script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="container nav" aria-label="Primary">
+      <a class="brand" href="#top"><span class="brand-full">Xuanye Wang</span><span class="brand-short" aria-hidden="true">XW</span></a>
+      <ul class="nav-links">
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="teaching/">Teaching</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle color theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="container hero" id="top">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Software engineer &middot; UC San Diego CS &rsquo;27</p>
+      <h1>Xuanye Wang</h1>
+
+      <div class="hero-grid">
+        <div>
+          <p class="lede">I build <strong>secure, event-driven cloud systems</strong> and the interfaces people use to run them &mdash; and I research how to make <strong>audio watermarks</strong> hold up in the real world.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="mailto:xuw040@ucsd.edu">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7 8 6 8-6"/></svg>
+              Email me
+            </a>
+            <a class="btn" href="https://github.com/KeeevinW" target="_blank" rel="noopener">
+              <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+              GitHub
+            </a>
+            <a class="btn" href="https://www.linkedin.com/in/xuanye-wang-9387bb297/" target="_blank" rel="noopener">
+              <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/></svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+
+        <dl class="glance">
+          <div><dt>Now</dt><dd>Senior, B.S. Computer Science at UC San Diego</dd></div>
+          <div><dt>Recently</dt><dd>Software Engineer Intern at Amazon, Summer 2026</dd></div>
+          <div><dt>Research</dt><dd>First-author paper under review at AAAI 2027</dd></div>
+        </dl>
+      </div>
+
+    </section>
+
+    <!-- Experience -->
+    <section class="container section" id="experience" aria-labelledby="experience-title">
+      <div class="section-head">
+        <span class="section-num">01</span>
+        <h2 id="experience-title">Experience</h2>
+      </div>
+      <div class="section-body">
+        <ul class="timeline">
+          <li>
+            <div>
+              <h3>Amazon <span class="muted">&middot; Software Engineer Intern</span></h3>
+              <p>Built a self-service AWS workflow for EU tax and regulatory reporting.</p>
+            </div>
+            <p class="meta">Summer 2026</p>
+          </li>
+          <li>
+            <div>
+              <h3>OfSpectrum <span class="muted">&middot; Software Engineer Intern</span></h3>
+              <p>Full-stack work on an audio watermarking platform, plus the research below.</p>
+            </div>
+            <p class="meta">2025 &ndash; 2026</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section class="container section" id="research" aria-labelledby="research-title">
+      <div class="section-head">
+        <span class="section-num">02</span>
+        <h2 id="research-title">Research</h2>
+      </div>
+      <div class="section-body">
+        <p class="paper-badges"><span class="badge">Under review &middot; AAAI 2027</span><span class="badge badge-quiet">First author</span></p>
+        <h3 class="paper-title"><a href="https://arxiv.org/abs/2609.29737" target="_blank" rel="noopener">No Time to Collapse: Unlocking Robustness and Multiplexed Capacity in Frozen Audio Watermarkers</a></h3>
+        <p class="paper-authors"><strong>Xuanye Wang</strong>, Linxi Li, Yechen Wang, Liwei Jin, Qianwei Guo, Carsten Maple</p>
+        <div class="prose">
+          <p>A small learned decoder that helps existing audio watermarks survive real-world edits &mdash; without retraining the watermarker itself.</p>
+        </div>
+        <a class="btn paper-link" href="https://arxiv.org/abs/2609.29737" target="_blank" rel="noopener">Read on arXiv <span aria-hidden="true">&#8599;</span></a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="container section" id="contact" aria-labelledby="contact-title">
+      <div class="section-head">
+        <span class="section-num">03</span>
+        <h2 id="contact-title">Contact</h2>
+      </div>
+      <div class="section-body">
+        <p class="statement">Say hello.</p>
+        <div class="prose">
+          <p>I&rsquo;m always happy to talk about cloud systems, ML research, or teaching computing. Email is the fastest way to reach me.</p>
+        </div>
+        <div class="email-row">
+          <a class="email" href="mailto:xuw040@ucsd.edu">xuw040@ucsd.edu</a>
+          <button class="copy-btn" type="button" data-copy="xuw040@ucsd.edu">Copy</button>
+        </div>
+        <ul class="contact-links">
+          <li><a href="https://github.com/KeeevinW" target="_blank" rel="noopener">GitHub <span aria-hidden="true">&#8599;</span></a></li>
+          <li><a href="https://www.linkedin.com/in/xuanye-wang-9387bb297/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">&#8599;</span></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container site-footer">
+    <p>&copy; <span data-year>2026</span> Xuanye Wang</p>
+  </footer>
+</body>
+</html>
